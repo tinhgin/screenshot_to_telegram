@@ -11,7 +11,7 @@ print("Current Time =", current_time)
 bot = telegram.Bot(token="BOT_TOKEN_HERE")
 chat_id = "-TELEGRAM_GROUP_ID_HERE"
 
-def job(t):
+def job():
 	im = pyscreenshot.grab()
 	im.save("screen.png", "PNG")
 	try:
